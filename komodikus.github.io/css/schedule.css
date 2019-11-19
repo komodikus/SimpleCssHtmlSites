@@ -1,0 +1,38 @@
+.schedule {
+  margin-bottom: 2em;
+}
+.schedule--table {
+  width: 100%;
+   border: 0px;
+   border-collapse: collapse;
+ }
+.schedule--table thead {
+  font-weight: bold;
+}
+.schedule--table td {padding: 0.6rem 1rem;
+   border-bottom: 1px solid #e8e9eb;
+ }
+ .schedule--table th{
+   text-align: left;
+ }
+ table td:nth-child(3) {text-align: right;}
+
+ @media screen and (max-width: 800px) {
+   .schedule--table thead {
+     display: none;
+   }
+   .schedule--table tr {
+     display: block;
+     margin-bottom: 1rem;
+     border-bottom: 2px solid #e8e9eb;
+   }
+   .schedule--table td {
+     display: block;
+     text-align: right;
+   }
+   .schedule--table td:before {
+     content: attr(aria-label);
+     float: left;
+     font-weight: bold;
+   }
+ }
