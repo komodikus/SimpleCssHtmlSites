@@ -1,2 +1,2 @@
 # SimpleCssHtmlSites
-Simple website made using css+html
+Simple websites made using css+html
