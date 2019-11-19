@@ -1,0 +1,110 @@
+*{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  color: white;
+}
+.col{
+  margin: 0px;
+  padding: 0px;
+}
+.row{
+  margin: 0px;
+  padding: 0px;
+}
+.header{
+  padding-top: 1em;
+  height: 500px;
+  background: url("../img/head_back.jpg");
+  background-size: cover;
+}
+ul li a{
+  text-shadow: 1px 1px 2px black;
+  text-decoration: none;
+  color:white;
+}
+.first-header{
+  text-shadow: 1px 1px 2px black;
+  font-weight: bold;
+  color: white;
+  padding-right: 1em;
+  padding-top: 1em;
+  font-size: 3em;
+}
+.my-button{
+  text-shadow: 1px 1px 2px black;
+  font-size: 1.5em;
+  text-align: right;
+  color:white;
+  padding: 0.7em 1em;
+  border: 0.2em solid yellow;
+  border-radius: 0.6em;
+  letter-spacing: 0.2em;
+  margin-right: 2em;
+}
+.colsa{
+    margin-top: 2em;
+}
+.second-header{
+  font-weight: bold;
+  padding-top: 0.7em;
+  font-size: 3em;
+  color: black;
+  padding-bottom: 0.7em;
+}
+.section-two{
+  color: black;
+}
+.zuk-classes{
+  height: 300px;
+  width: auto;
+}
+.o-zhukax{
+  background: none;
+  margin-top: 2em;
+}
+
+.text{
+  color: black;
+  text-align: center;
+  margin-right: 1em;
+}
+.back-img{
+  background: url("../img/Lending.jpg");
+  background-size: cover;
+  height: 400px;
+}
+.test-back{
+  background: url("../img/123.jpg");
+  background-size: cover;
+  height: 600px;
+}
+.scndbtn{
+  margin-right: none;
+  display: inline-block;
+  margin: 0 auto;
+  border: 0.2em solid #c4ce4a;
+}
+.hytr{
+  margin-top:10em;
+  margin-bottom:10em;
+}
+a:hover{
+  text-decoration: none;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  color: rgb(221, 251, 225);
+}
+
+@media (min-width: 1024px) {
+  .o-zhukax {
+    background: url("../img/full.jpg");
+    background-size: cover;
+  }
+}
+@media (max-width: 1024px) {
+  .back-img {
+    display: none;
+  }
+  .text{
+    margin-bottom: 4em;
+  }
+}
